@@ -1,0 +1,32 @@
+* {
+padding: 0;
+margin: 0;
+}
+
+.gallery, img{
+  width: 900px;
+  margin: 0 auto;
+}
+
+.footer {
+  width: 900px;
+  position: relative;
+}
+
+button{
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.footer .prev {
+  position: absolute;
+  left: 200px;
+}
+
+.footer .next {
+  position: absolute;
+  right: 200px; 
+}
